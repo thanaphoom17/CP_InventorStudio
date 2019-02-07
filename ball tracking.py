@@ -47,8 +47,7 @@ while True:
             cv2.putText(frame, str(radius), (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 20, 200), 1)
     cv2.imshow("Frame", frame)
     cv2.imshow("Mask", mask)
-
-
+    #CVXCVXCVXCVXCVXCVXCVXCVLKFL;DF;DF
     key = cv2.waitKey(1) & 0xFF
 
     if key == ord("q"):
